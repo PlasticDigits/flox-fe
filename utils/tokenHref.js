@@ -1,0 +1,1 @@
+export const tokenHref = (address)=>`https://bscscan.com/token/${address}`;

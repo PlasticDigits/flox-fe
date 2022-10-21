@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'script_mt_boldregular';
+    src: url('scriptbl-webfont.woff2') format('woff2'),
+         url('scriptbl-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}

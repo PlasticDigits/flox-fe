@@ -1,0 +1,1 @@
+export const tokenBoggedChart = (address)=>`https://charts.bogged.finance/${address}`;

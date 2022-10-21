@@ -1,0 +1,53 @@
+{
+  "name": "flox-fe",
+  "version": "1.0.0",
+  "homepage": "./",
+  "description": "Flokiverse | Earn Floki Holiday tokens with FLOX.",
+  "license": "GPL-3.0",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export",
+    "prettier": "prettier --write '**/*.js{x,}'"
+  },
+  "dependencies": {
+    "@ethersproject/abi": "^5.6.0",
+    "@ethersproject/contracts": "^5.6.0",
+    "@ethersproject/units": "^5.6.0",
+    "@pinata/ipfs-gateway-tools": "^1.2.0",
+    "@usedapp/coingecko": "^1.1.2",
+    "@usedapp/core": "^0.12.1",
+    "@walletconnect/web3-provider": "^1.7.5",
+    "@web3-react/walletconnect-connector": "^6.2.13",
+    "bulma": "^0.9.3",
+    "bulma-accordion": "^2.0.1",
+    "classnames": "^2.2.6",
+    "ethcall": "^4.4.0",
+    "lodash": "^4.17.21",
+    "next": "^12.1.0",
+    "next-videos": "^1.4.0",
+    "node-sass": "^7.0.1",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "styled-components": "^5.3.3",
+    "styled-jsx-plugin-sass": "^1.0.0",
+    "web3modal": "^1.9.5"
+  },
+  "devDependencies": {
+    "@ethersproject/providers": "^5.6.1",
+    "@typechain/ethers-v5": "^9.0.0",
+    "@types/react": "^17.0.40",
+    "@types/react-dom": "^17.0.13",
+    "@types/react-router-dom": "^5.3.3",
+    "@types/styled-components": "^5.1.24",
+    "babel-plugin-module-resolver": "^3.2.0",
+    "next-compose-plugins": "^2.2.1",
+    "next-images": "^1.8.4",
+    "prettier": "^2.6.0",
+    "ts-loader": "^9.2.8",
+    "typechain": "^7.0.1",
+    "typescript": "^4.6.2"
+  }
+}
